@@ -1,0 +1,280 @@
+:root {
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1440px;
+}
+
+.nav-list {
+  align-items: center;
+  margin-left: 200px;
+  display: flex;
+  gap: 48px;
+}
+
+.header-nav {
+  padding: 36px 0 64px 56px;
+  display: flex;
+  align-items: center;
+}
+.nav-btn {
+  padding: 12px 24px;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fffefb;
+  background: #488733;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  cursor: pointer;
+  border: transparent;
+}
+.nav-btn:hover {
+  background: #366f23;
+}
+.nav-btn:active {
+  background: #4d9c33;
+}
+.main-img {
+  background-image: url(../img/Illustration.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main {
+}
+.main-title {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  align-items: center;
+}
+.main .container {
+  display: flex;
+}
+
+.main-title-text {
+  font-family: "El Messiri";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 48px;
+}
+.main-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+.about-title {
+  border-top: 4px solid #ffa69d;
+  border-bottom: 4px solid #ffa69d;
+  margin-top: 72px;
+  margin-bottom: 176px;
+  font-family: "El Messiri";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  text-align: center;
+  padding: 16px 0;
+}
+.about-title-second {
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.about-list {
+  max-width: 866px;
+  margin: auto;
+  margin-bottom: 112px;
+}
+.about-list .about-list-item + .about-list-item {
+  margin-top: 22px;
+}
+
+.about-list-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+.benefits-title {
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.benefits-list {
+  display: flex;
+  justify-content: center;
+  gap: 116px;
+}
+.benefits-list-text {
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+.benefits-list-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+/* =====SECTION AGEDA========  */
+.agenda{
+  margin-top: 200px;
+}
+
+
+.agenda-title {
+  font-family: "El Messiri";
+  font-size: 44px;
+  line-height: 40px;
+  margin-bottom: 48px;
+
+}
+.agenda-text {
+  font-family: "El Messiri";
+  font-size: 32px;
+  line-height: 40px;
+  color: #0c0a0a;
+}
+.agenda-staff-title {
+  font-family: "El Messiri";
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+.agenda-staff-text {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.agenda-staff-name {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+.agenda-staff-job {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.agenda-staff-link {
+  font-family: "Open Sans";
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #0e6ca9;
+}
+.agenda-staff-img {
+  max-width: 163px;
+  max-height: 144px;
+  border-radius: 50%;
+  background: #488733;
+}
+.agenda-staff-img-red {
+  max-width: 163px;
+  max-height: 144px;
+  border-radius: 50%;
+  background: #FFA69D;
+}
+.agenda-staff-time {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #488733;
+  margin-right: 20px;
+  width: 100px;
+}
+.cart-box{
+  display: flex;
+  align-items: center;
+  width: 870px; 
+  max-height: 156px;
+  border-bottom: 4px solid #FFBD45;
+  padding-bottom: 12px;
+  margin-bottom: 28px;
+  margin-left: auto;
+
+}
+.ageda-staff-info{
+  margin-left: 20px;
+}
+
+.cart-box:first-child{
+  position: absolute;
+  transform: translateY(100%);
+  border: transparent;
+}
+.cart-box:nth-child(2n+2){
+  margin-right: 200px;
+}
+.agenda-staff-main{
+  width: 45%;
+}
+.agenda-staff-imges{
+  width: 30%;
+}
+.ageda-staff-info{
+  width: 200px;
+}
+/* =====SECTION AGEDA========  */
